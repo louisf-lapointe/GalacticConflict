@@ -1,0 +1,52 @@
+{
+    "player_color": "White",
+    "turn": "White",
+    "board": {
+        "pieces": [
+            {
+                "type": "Torpedo",
+                "color": "White",
+                "row": 0,
+                "col": 2
+            },
+            {
+                "type": "Battleship",
+                "color": "White",
+                "row": 1,
+                "col": 3
+            },
+            {
+                "type": "Battleship",
+                "color": "Black",
+                "row": 1,
+                "col": 5
+            }
+        ]
+    },
+    "move_history": [
+        "BS e1-d2",
+        "BS e8-f8",
+        "BS d2-d3",
+        "BS f8-f7",
+        "BS d3-d4",
+        "BS f7-f8",
+        "BS d4-c5",
+        "BS f8-f7",
+        "BS c5-c6",
+        "BS f7-f8",
+        "FT a7-a8=TP",
+        "BS f8-f7",
+        "TP a8-b7 BS c6-d6",
+        "BS f7-f8",
+        "TP b7-c8 BS d6-d7",
+        "BS f8-f7"
+    ],
+  "flags": {
+    "battleship_eliminated_win": false,
+    "no_move_loss": false,
+    "dead_position_draw": false,
+    "threefold_draw": false,
+    "no_captures_150": false,
+    "resign": false
+  }
+}

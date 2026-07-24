@@ -1,0 +1,209 @@
+{
+    "player_color": "White",
+    "turn": "White",
+    "board": {
+        "pieces": [
+            {
+                "type": "Bomber",
+                "color": "Black",
+                "row": 0,
+                "col": 0
+            },
+            {
+                "type": "Corvette",
+                "color": "Black",
+                "row": 0,
+                "col": 1
+            },
+            {
+                "type": "Interceptor",
+                "color": "Black",
+                "row": 0,
+                "col": 2
+            },
+            {
+                "type": "Dreadnought",
+                "color": "Black",
+                "row": 0,
+                "col": 3
+            },
+            {
+                "type": "Battleship",
+                "color": "Black",
+                "row": 0,
+                "col": 4
+            },
+            {
+                "type": "Interceptor",
+                "color": "Black",
+                "row": 0,
+                "col": 5
+            },
+            {
+                "type": "Corvette",
+                "color": "Black",
+                "row": 0,
+                "col": 6
+            },
+            {
+                "type": "Bomber",
+                "color": "Black",
+                "row": 0,
+                "col": 7
+            },
+            {
+                "type": "Fighter",
+                "color": "Black",
+                "row": 1,
+                "col": 0
+            },
+            {
+                "type": "Fighter",
+                "color": "Black",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "Fighter",
+                "color": "Black",
+                "row": 1,
+                "col": 2
+            },
+            {
+                "type": "Fighter",
+                "color": "Black",
+                "row": 1,
+                "col": 3
+            },
+            {
+                "type": "Fighter",
+                "color": "Black",
+                "row": 1,
+                "col": 4
+            },
+            {
+                "type": "Fighter",
+                "color": "Black",
+                "row": 1,
+                "col": 5
+            },
+            {
+                "type": "Fighter",
+                "color": "Black",
+                "row": 1,
+                "col": 6
+            },
+            {
+                "type": "Fighter",
+                "color": "Black",
+                "row": 1,
+                "col": 7
+            },
+            {
+                "type": "Fighter",
+                "color": "White",
+                "row": 6,
+                "col": 0
+            },
+            {
+                "type": "Fighter",
+                "color": "White",
+                "row": 6,
+                "col": 1
+            },
+            {
+                "type": "Fighter",
+                "color": "White",
+                "row": 6,
+                "col": 2
+            },
+            {
+                "type": "Fighter",
+                "color": "White",
+                "row": 6,
+                "col": 3
+            },
+            {
+                "type": "Fighter",
+                "color": "White",
+                "row": 6,
+                "col": 4
+            },
+            {
+                "type": "Fighter",
+                "color": "White",
+                "row": 6,
+                "col": 5
+            },
+            {
+                "type": "Fighter",
+                "color": "White",
+                "row": 6,
+                "col": 6
+            },
+            {
+                "type": "Fighter",
+                "color": "White",
+                "row": 6,
+                "col": 7
+            },
+            {
+                "type": "Bomber",
+                "color": "White",
+                "row": 7,
+                "col": 0
+            },
+            {
+                "type": "Corvette",
+                "color": "White",
+                "row": 7,
+                "col": 1
+            },
+            {
+                "type": "Interceptor",
+                "color": "White",
+                "row": 7,
+                "col": 2
+            },
+            {
+                "type": "Dreadnought",
+                "color": "White",
+                "row": 7,
+                "col": 3
+            },
+            {
+                "type": "Battleship",
+                "color": "White",
+                "row": 7,
+                "col": 4
+            },
+            {
+                "type": "Interceptor",
+                "color": "White",
+                "row": 7,
+                "col": 5
+            },
+            {
+                "type": "Corvette",
+                "color": "White",
+                "row": 7,
+                "col": 6
+            },
+            {
+                "type": "Bomber",
+                "color": "White",
+                "row": 7,
+                "col": 7
+            }
+        ]
+    },
+    "move_history": [],
+    "flags": {
+        "battleship_eliminated_win": false,
+        "no_move_loss": false,
+        "dead_position_draw": false,
+        "threefold_draw": false,
+        "no_captures_150": false,
+        "resign": false
+    }
+}

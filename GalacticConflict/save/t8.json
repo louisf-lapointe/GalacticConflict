@@ -1,0 +1,20 @@
+{
+  "player_color": "White",
+  "turn": "White",
+  "board": {
+    "pieces": [
+      { "type": "Battleship", "color": "White", "row": 4, "col": 4 },
+      { "type": "Battleship", "color": "White", "row": 7, "col": 4 },
+      { "type": "Battleship", "color": "Black", "row": 0, "col": 4 }
+    ]
+  },
+  "move_history": [],
+  "flags": {
+    "battleship_eliminated_win": false,
+    "no_move_loss": false,
+    "dead_position_draw": false,
+    "threefold_draw": false,
+    "no_captures_150": false,
+    "resign": false
+  }
+}

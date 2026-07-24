@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{351cfc5d-80fe-4d1d-8706-d973c79993b9}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>GalacticConflict\galacticconflict.py </StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.\GalacticConflict\.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>Global|PythonCore|3.13</InterpreterId>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <CommandLineArguments>--run-no-tests test/suites/suite1.json</CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+    <TestFramework>none</TestFramework>
+    <UnitTestPattern>test*.py</UnitTestPattern>
+    <UnitTestRootDirectory>.</UnitTestRootDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="GalacticConflict\galacticconflict.py" />
+    <Compile Include="GalacticConflict\game\board.py" />
+    <Compile Include="GalacticConflict\game\constants.py" />
+    <Compile Include="GalacticConflict\game\game.py" />
+    <Compile Include="GalacticConflict\game\half_turn.py" />
+    <Compile Include="GalacticConflict\game\material.py" />
+    <Compile Include="GalacticConflict\game\move.py" />
+    <Compile Include="GalacticConflict\game\move_history.py" />
+    <Compile Include="GalacticConflict\game\move_transform.py" />
+    <Compile Include="GalacticConflict\game\profiler.py" />
+    <Compile Include="GalacticConflict\game\UserInterface.py" />
+    <Compile Include="GalacticConflict\pieces\battleship.py" />
+    <Compile Include="GalacticConflict\pieces\bomber.py" />
+    <Compile Include="GalacticConflict\pieces\corvette.py" />
+    <Compile Include="GalacticConflict\pieces\dreadnought.py" />
+    <Compile Include="GalacticConflict\pieces\fighter.py" />
+    <Compile Include="GalacticConflict\pieces\interceptor.py" />
+    <Compile Include="GalacticConflict\pieces\piece.py" />
+    <Compile Include="GalacticConflict\pieces\torpedo.py" />
+    <Compile Include="GalacticConflict\players\computer_player.py" />
+    <Compile Include="GalacticConflict\players\human_player.py" />
+    <Compile Include="GalacticConflict\test\test_suites_runner.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GalacticConflict\game\themes\blue_theme.png" />
+    <Content Include="GalacticConflict\game\themes\purple_theme.png" />
+    <Content Include="GalacticConflict\game\themes\red_theme.png" />
+    <Content Include="GalacticConflict\pieces\assets\Black_Battleship.png" />
+    <Content Include="GalacticConflict\pieces\assets\Black_Bomber.png" />
+    <Content Include="GalacticConflict\pieces\assets\Black_Corvette.png" />
+    <Content Include="GalacticConflict\pieces\assets\Black_Dreadnought.png" />
+    <Content Include="GalacticConflict\pieces\assets\Black_Fighter.png" />
+    <Content Include="GalacticConflict\pieces\assets\Black_Interceptor.png" />
+    <Content Include="GalacticConflict\pieces\assets\Black_Torpedo.png" />
+    <Content Include="GalacticConflict\pieces\assets\White_Battleship.png" />
+    <Content Include="GalacticConflict\pieces\assets\White_Bomber.png" />
+    <Content Include="GalacticConflict\pieces\assets\White_Corvette.png" />
+    <Content Include="GalacticConflict\pieces\assets\White_Dreadnought.png" />
+    <Content Include="GalacticConflict\pieces\assets\White_Fighter.png" />
+    <Content Include="GalacticConflict\pieces\assets\White_Interceptor.png" />
+    <Content Include="GalacticConflict\pieces\assets\White_Torpedo.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\Battleship.jpg" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\Black_Battleship.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\Black_Bishop.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\Black_Bomber.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\Black_Corvette.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\Black_Dreadnought.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\Black_Fighter.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\Black_Interceptor.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\Black_King.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\Black_Knight.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\Black_Pawn.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\Black_Queen.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\Black_Rook.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\Black_Torpedo.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\Bomber.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\Corvette.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\Dreadnought.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\Fighter.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\Interceptor.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\Torpedo.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\White_Battleship.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\White_Bishop.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\White_Bomber.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\White_Corvette.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\White_Dreadnought.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\White_Fighter.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\White_Interceptor.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\White_King.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\White_Knight.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\White_Pawn.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\White_Queen.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\White_Rook.png" />
+    <Content Include="GalacticConflict\pieces\assets\Work_Progress\White_Torpedo.png" />
+    <Content Include="GalacticConflict\save\finals\Battleship.json" />
+    <Content Include="GalacticConflict\save\finals\Corvette.json" />
+    <Content Include="GalacticConflict\save\finals\Fighter.json" />
+    <Content Include="GalacticConflict\save\save.json" />
+    <Content Include="GalacticConflict\save\t1.json" />
+    <Content Include="GalacticConflict\save\t2.json" />
+    <Content Include="GalacticConflict\save\t3.json" />
+    <Content Include="GalacticConflict\save\t4.json" />
+    <Content Include="GalacticConflict\save\t5.json" />
+    <Content Include="GalacticConflict\save\t6.json" />
+    <Content Include="GalacticConflict\save\t7.json" />
+    <Content Include="GalacticConflict\save\t8.json" />
+    <Content Include="GalacticConflict\save\todo\implLevelinDepthMate.json" />
+    <Content Include="GalacticConflict\save\todo\mateInOne.json" />
+    <Content Include="GalacticConflict\test\suites\suite1.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GalacticConflict" />
+    <Folder Include="GalacticConflict\game" />
+    <Folder Include="GalacticConflict\game\themes" />
+    <Folder Include="GalacticConflict\pieces" />
+    <Folder Include="GalacticConflict\pieces\assets" />
+    <Folder Include="GalacticConflict\pieces\assets\Work_Progress" />
+    <Folder Include="GalacticConflict\players" />
+    <Folder Include="GalacticConflict\save\" />
+    <Folder Include="GalacticConflict\save\finals\" />
+    <Folder Include="GalacticConflict\save\todo\" />
+    <Folder Include="GalacticConflict\test\" />
+    <Folder Include="GalacticConflict\test\suites\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.13" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

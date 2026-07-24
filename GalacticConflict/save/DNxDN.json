@@ -1,0 +1,199 @@
+{
+    "player_color": "White",
+    "turn": "Black",
+    "board": {
+        "pieces": [
+            {
+                "type": "Bomber",
+                "color": "Black",
+                "row": 0,
+                "col": 0
+            },
+            {
+                "type": "Battleship",
+                "color": "Black",
+                "row": 0,
+                "col": 4
+            },
+            {
+                "type": "Bomber",
+                "color": "Black",
+                "row": 0,
+                "col": 7
+            },
+            {
+                "type": "Fighter",
+                "color": "Black",
+                "row": 1,
+                "col": 0
+            },
+            {
+                "type": "Interceptor",
+                "color": "Black",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "Fighter",
+                "color": "Black",
+                "row": 1,
+                "col": 3
+            },
+            {
+                "type": "Fighter",
+                "color": "Black",
+                "row": 1,
+                "col": 7
+            },
+            {
+                "type": "Fighter",
+                "color": "Black",
+                "row": 2,
+                "col": 1
+            },
+            {
+                "type": "Fighter",
+                "color": "Black",
+                "row": 2,
+                "col": 6
+            },
+            {
+                "type": "Fighter",
+                "color": "Black",
+                "row": 3,
+                "col": 3
+            },
+            {
+                "type": "Fighter",
+                "color": "White",
+                "row": 4,
+                "col": 4
+            },
+            {
+                "type": "Dreadnought",
+                "color": "Black",
+                "row": 4,
+                "col": 7
+            },
+            {
+                "type": "Fighter",
+                "color": "White",
+                "row": 5,
+                "col": 0
+            },
+            {
+                "type": "Dreadnought",
+                "color": "White",
+                "row": 5,
+                "col": 6
+            },
+            {
+                "type": "Interceptor",
+                "color": "White",
+                "row": 6,
+                "col": 0
+            },
+            {
+                "type": "Fighter",
+                "color": "White",
+                "row": 6,
+                "col": 1
+            },
+            {
+                "type": "Fighter",
+                "color": "White",
+                "row": 6,
+                "col": 7
+            },
+            {
+                "type": "Bomber",
+                "color": "White",
+                "row": 7,
+                "col": 0
+            },
+            {
+                "type": "Corvette",
+                "color": "White",
+                "row": 7,
+                "col": 1
+            },
+            {
+                "type": "Interceptor",
+                "color": "White",
+                "row": 7,
+                "col": 2
+            },
+            {
+                "type": "Bomber",
+                "color": "White",
+                "row": 7,
+                "col": 4
+            },
+            {
+                "type": "Battleship",
+                "color": "White",
+                "row": 7,
+                "col": 7
+            }
+        ]
+    },
+    "move_history": [
+        "FT e2-e4",
+        "FT b7-b6",
+        "FT d2-d4",
+        "FT g7-g6",
+        "IN f1-d3",
+        "CV b8-c6",
+        "FT d4-d5",
+        "CV c6-b4",
+        "IN d3-e2",
+        "IN f8-g7",
+        "FT a2-a3",
+        "CV g8-f6",
+        "IN e2-f3",
+        "CV f6-e4",
+        "IN f3xe4",
+        "CV b4-a6",
+        "CV g1-f3",
+        "CV a6-c5",
+        "IN e4-d3",
+        "IN c8-b7",
+        "IN d3-c4",
+        "CV c5-e4",
+        "BS e1-e2",
+        "BS e8-f8",
+        "BM h1-e1",
+        "FT c7-c6",
+        "BS e2-f1",
+        "FT f7-f5",
+        "CV f3-d4",
+        "FT c6-d5",
+        "IN c4-a2",
+        "FT e7-e5",
+        "FT f2-f3",
+        "FT e5-d4",
+        "FT f3xe4",
+        "FT f5-e4",
+        "BS f1-g1",
+        "FT d4-d3",
+        "FT c2xd3",
+        "IN g7-d4",
+        "BS g1-h1",
+        "IN d4-e5",
+        "FT d3xe4",
+        "DN d8-h4",
+        "DN d1-f3",
+        "BS f8-e8",
+        "FT g2-g3",
+        "IN e5-g3",
+        "DN f3xg3"
+    ],
+  "flags": {
+    "battleship_eliminated_win": false,
+    "no_move_loss": false,
+    "dead_position_draw": false,
+    "threefold_draw": false,
+    "no_captures_150": false,
+    "resign": false
+  }
+}

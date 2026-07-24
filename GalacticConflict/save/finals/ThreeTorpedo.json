@@ -1,0 +1,47 @@
+{
+  "player_color": "White",
+  "turn": "White",
+  "board": {
+    "pieces": [
+      {
+        "type": "Fighter",
+        "color": "White",
+        "row": 1,
+        "col": 0
+      },
+      {
+        "type": "Fighter",
+        "color": "White",
+        "row": 1,
+        "col": 1
+      },
+      {
+        "type": "Fighter",
+        "color": "White",
+        "row": 1,
+        "col": 2
+      },
+      {
+        "type": "Battleship",
+        "color": "White",
+        "row": 4,
+        "col": 3
+      },
+      {
+        "type": "Battleship",
+        "color": "Black",
+        "row": 1,
+        "col": 7
+      }
+    ]
+  },
+  "move_history": [],
+  "flags": {
+    "battleship_eliminated_win": false,
+    "no_move_loss": false,
+    "dead_position_draw": false,
+    "threefold_draw": false,
+    "no_captures_150": false,
+    "resign": false
+  }
+}

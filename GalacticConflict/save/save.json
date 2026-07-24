@@ -1,0 +1,194 @@
+{
+    "player_color": "White",
+    "turn": "White",
+    "board": {
+        "pieces": [
+            {
+                "type": "Torpedo",
+                "color": "White",
+                "row": 0,
+                "col": 5
+            },
+            {
+                "type": "Battleship",
+                "color": "Black",
+                "row": 0,
+                "col": 6
+            },
+            {
+                "type": "Bomber",
+                "color": "Black",
+                "row": 0,
+                "col": 7
+            },
+            {
+                "type": "Fighter",
+                "color": "Black",
+                "row": 1,
+                "col": 7
+            },
+            {
+                "type": "Corvette",
+                "color": "White",
+                "row": 2,
+                "col": 4
+            },
+            {
+                "type": "Fighter",
+                "color": "Black",
+                "row": 2,
+                "col": 6
+            },
+            {
+                "type": "Fighter",
+                "color": "White",
+                "row": 3,
+                "col": 2
+            },
+            {
+                "type": "Interceptor",
+                "color": "White",
+                "row": 3,
+                "col": 3
+            },
+            {
+                "type": "Fighter",
+                "color": "White",
+                "row": 3,
+                "col": 4
+            },
+            {
+                "type": "Fighter",
+                "color": "White",
+                "row": 4,
+                "col": 1
+            },
+            {
+                "type": "Fighter",
+                "color": "White",
+                "row": 5,
+                "col": 0
+            },
+            {
+                "type": "Fighter",
+                "color": "White",
+                "row": 5,
+                "col": 6
+            },
+            {
+                "type": "Bomber",
+                "color": "Black",
+                "row": 6,
+                "col": 7
+            },
+            {
+                "type": "Bomber",
+                "color": "White",
+                "row": 7,
+                "col": 5
+            },
+            {
+                "type": "Battleship",
+                "color": "White",
+                "row": 7,
+                "col": 7
+            }
+        ]
+    },
+    "move_history": [
+        "FT e2-e4",
+        "CV b8-c6",
+        "FT d2-d4",
+        "FT e7-e6",
+        "FT f2-f4",
+        "CV c6-e7",
+        "CV g1-f3",
+        "CV e7xg8=BS",
+        "IN f1-d3",
+        "DN d8-f6",
+        "FT e4-e5",
+        "DN f6-h6",
+        "BS e1-f2",
+        "FT f7-f5",
+        "FT c2-c4",
+        "FT b7-b6",
+        "FT a2-a3",
+        "IN c8-b7",
+        "CV b1-c3",
+        "IN f8-e7",
+        "BM h1-f1",
+        "BS e8-f8",
+        "BS f2-g1",
+        "FT c7-c5",
+        "FT d4-d5",
+        "FT d7-d6",
+        "BM f1-e1",
+        "FT d6xe5",
+        "FT f4xe5",
+        "DN h6-g6>BM",
+        "FT d5-d6",
+        "IN b7xf3",
+        "DN d1xf3",
+        "IN e7-h4",
+        "FT g2-g3",
+        "BM a8-d8",
+        "BS g1-h1",
+        "IN h6xc1",
+        "BM a1xc1",
+        "IN h4-g5",
+        "BM c1-d1",
+        "BM d8-d7",
+        "DN f3-c6",
+        "BM d7-d8",
+        "CV c3-b5",
+        "FT a7-a6",
+        "CV b5-c7",
+        "FT a6-a5",
+        "DN c6xb6",
+        "IN g5xd8=DN",
+        "DN b6xc5",
+        "FT a5-a4",
+        "IN d3-c2",
+        "BS f8-f7",
+        "IN c2xa4",
+        "BM g6-g4",
+        "FT b2-b4",
+        "DN d8-c8>BM",
+        "IN a4-b3",
+        "BM g4-e4",
+        "BM e1xe4",
+        "FT f5xe4",
+        "BM d1-f1",
+        "BS f7-g6",
+        "IN b3-c2",
+        "IN d8-g5",
+        "IN c2xe4",
+        "BS g6-h6",
+        "FT d6-d7",
+        "BM c8-b8",
+        "CV c7xe6",
+        "IN g5-d2",
+        "IN e4-d5",
+        "FT g7-g6",
+        "DN c5-d4>IN",
+        "BS h6xh6>DN",
+        "BM c5-c8",
+        "BM b8xc8",
+        "FT d7xc8=TP",
+        "IN d2-e3",
+        "TP c8-d8 IN d4xe3",
+        "DN h6-h5>BM",
+        "TP d8-e8 IN e3xh6",
+        "BM h5xh6",
+        "TP e8-f8 FT c4-c5",
+        "BM h6xh2"
+    ],
+    "flags": {
+        "battleship_eliminated_win": false,
+        "no_move_loss": false,
+        "dead_position_draw": false,
+        "threefold_draw": false,
+        "no_captures_150": false,
+        "resign": false
+    }
+}

@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.5.11716.220 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "GalacticConflict", "GalacticConflict.pyproj", "{351CFC5D-80FE-4D1D-8706-D973C79993B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{351CFC5D-80FE-4D1D-8706-D973C79993B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351CFC5D-80FE-4D1D-8706-D973C79993B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F12BCC7E-ACA4-4BB3-A31A-D17AC6066F81}
+	EndGlobalSection
+EndGlobal
