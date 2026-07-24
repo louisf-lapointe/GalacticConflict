@@ -1,16 +1,15 @@
 Contributing
 
 Thanks for contributing to Galactic Conflict! Here’s the quick guide:
-
+The project implements a variety of fantaisy chess with some small variation
 
 
 Setup
 
 
-
 Code to run
 
-python GalacticConflict\\galacticconflict.py
+python GalacticConflict\galacticconflict.py
 
 
 
@@ -30,7 +29,7 @@ Every new mechanic must be reversible via Board.undo\_move().
 
 
 
-Rules of the game can be found in doc folder.
+Rules of the game can be found in GalacticConflict\documents folder.
 
 Every new piece must implement:
 

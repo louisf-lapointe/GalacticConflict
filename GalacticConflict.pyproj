@@ -25,6 +25,7 @@
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="GalacticConflict\documents\PromotionImageGen.py" />
     <Compile Include="GalacticConflict\galacticconflict.py" />
     <Compile Include="GalacticConflict\game\board.py" />
     <Compile Include="GalacticConflict\game\constants.py" />
@@ -49,6 +50,9 @@
     <Compile Include="GalacticConflict\test\test_suites_runner.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="GalacticConflict\CONTRIBUTING.md" />
+    <Content Include="GalacticConflict\documents\galactic_promotions_1200.png" />
+    <Content Include="GalacticConflict\documents\rulertf.rtf" />
     <Content Include="GalacticConflict\game\themes\blue_theme.png" />
     <Content Include="GalacticConflict\game\themes\purple_theme.png" />
     <Content Include="GalacticConflict\game\themes\red_theme.png" />
@@ -99,6 +103,7 @@
     <Content Include="GalacticConflict\pieces\assets\Work_Progress\White_Queen.png" />
     <Content Include="GalacticConflict\pieces\assets\Work_Progress\White_Rook.png" />
     <Content Include="GalacticConflict\pieces\assets\Work_Progress\White_Torpedo.png" />
+    <Content Include="GalacticConflict\README.md" />
     <Content Include="GalacticConflict\save\finals\Battleship.json" />
     <Content Include="GalacticConflict\save\finals\Corvette.json" />
     <Content Include="GalacticConflict\save\finals\Fighter.json" />
@@ -117,6 +122,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="GalacticConflict" />
+    <Folder Include="GalacticConflict\documents\" />
     <Folder Include="GalacticConflict\game" />
     <Folder Include="GalacticConflict\game\themes" />
     <Folder Include="GalacticConflict\pieces" />

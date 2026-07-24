@@ -21,15 +21,16 @@ A functional chess variant game implemented in Python, with pygame as a supporti
 # Features <a name="features"></a>
 * Single Player vs AI
   * AI implements the minimax algorithm to determine its moves.
-    * To optimize the minimax algorithm, I also implemented alpha-beta pruning to cut branches off early when they are worse than a move that has already been seen.
+    * To optimize the minimax algorithm, Jeffery also implemented alpha-beta pruning to cut branches off early when they are worse than a move that has already been seen.
   * The evaluation function for the algorithm is based on pre-determined piece values and piece square tables (how much a piece is worth, plus the relative strength of the piece in respect to its position on the board).
   * A togglable feature that shows the AI thinking in real time, displaying all board outcomes from the possible moves.
     * It also includes three speeds for this if the display is moving too fast (slow, medium, fast).
-* A move history log with standard chess notation.
+* A move history log with a new standard notation.
 * Tile indicators that show available moves for the piece that you have selected (toggleable).
   * Also shows the previous move that was made.
 * Variety of chess board themes to choose from.
 * Material tracker that displays captured pieces and advantages.
+* Louis-Francois added a save and load that modifies the /save/save.json
   
 # Implemented Game Mechanics <a name="mechanics"></a>
 * Promotion and demotions.
