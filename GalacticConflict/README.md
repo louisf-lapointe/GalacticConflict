@@ -63,8 +63,15 @@ To install it, simply enter these commands into your terminal. (for macOS users,
 * Running the galacticconflict.py file will start the program!
 
 # Future Implementations <a name="future"></a>
+* Implement Human-Human and Computer-Computer game
+* In Human-Human, implement an Undo Move button
+* Optimize the inputs of the evaluations based on ever optimizing algorithm when Computer-Computer play infinite games.
+*   Inputs are currently piece value and positional bonus
+* Using more threads to dispatch evaluations at the first depth level only.
+* A 3-7 man database for all the possible endings.
 
 # Known Bugs <a name="bugs"></a>
+* Color of the top-left diagonal is wrong. That gives a wrong color for the Dreadnought. This could be a feature for this vairant?
 
 # Extra Information <a name="extra"></a>
 The AI can hold its own against a casual player but has no grasp of positional concepts or mid to late-game tactics/evaluations. The strength of the AI depends on the strength and complexity of the evaluation function, which is currently a very simple evaluation. It calculates the material still left on the board (pieces) and then calculates the relative strength of each piece based on its position on the board using piece-square tables.

@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.5.11716.220 stable
+VisualStudioVersion = 18.5.11716.220
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "GalacticConflict", "GalacticConflict.pyproj", "{351CFC5D-80FE-4D1D-8706-D973C79993B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9EA80AB9-9038-4C96-ACA7-ACF954573A2F}"
+	ProjectSection(SolutionItems) = preProject
+		GalacticConflict\CONTRIBUTING.md = GalacticConflict\CONTRIBUTING.md
+		GalacticConflict\README.md = GalacticConflict\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
