@@ -311,6 +311,17 @@ class Board(object):
     # DRAWING
     # ---------------------------------------------------------
 
+    def get_dark_square_choice(self, theme):
+        """
+        Returns 0 or 1 depending on which theme color should be the dark square.
+        The darker color is the one with the lower RGB sum.
+        """
+        light_rgb_sum = sum(theme[0])
+        dark_rgb_sum  = sum(theme[1])
+
+        # If theme[1] is darker, dark squares use index 1
+        return 1 if dark_rgb_sum < light_rgb_sum else 0
+
     def create_board(self, window, theme):
         """Draw the board background, coordinates, and move history area."""
         my_font = pygame.font.SysFont("calibri", 15)
@@ -322,9 +333,10 @@ class Board(object):
         window.fill(theme[0])
 
         # Draw squares
+        dark = self.get_dark_square_choice(theme)
         for row in range(num_rows):
             for col in range(num_cols):
-                if (row + col) % 2 == 0:
+                if (row + col) % 2 == dark:
                     pygame.draw.rect(
                         window, theme[1],
                         (row * square_size, col * square_size, square_size, square_size)
